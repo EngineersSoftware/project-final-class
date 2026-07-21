@@ -8,6 +8,8 @@ El proyecto utiliza **Clean Architecture** combinada con los principios de **Dom
 - **Data:** Implementación técnica (Models, Repository Implementations, Data Sources).
 - **Presentation:** Interfaz de usuario y gestión de estado (Widgets y BLoC).
 
+Consulta los diagramas en la carpeta [`docs/`](./docs/README.md).
+
 ## ⚙️ Requisitos Previos
 - Flutter SDK (v3.22.0 o superior)
 - Dart SDK (v3.4.0 o superior)

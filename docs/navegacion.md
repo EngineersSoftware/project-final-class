@@ -1,4 +1,3 @@
-```markdown
 # Flujo de Navegación del Usuario
 
 ```mermaid
@@ -9,3 +8,4 @@ graph LR
     C -->|Éxito| D
     D -->|Tap en ítem| E[Detalle Screen]
     E -->|Atrás| D
+```

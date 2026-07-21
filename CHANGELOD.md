@@ -3,17 +3,18 @@ Todos los cambios notables de este proyecto se documentarán en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
 y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
-## [1.1.0] - 2026-07-20
+## [Unreleased]
 ### Añadido (Added)
-- Módulo completo de autenticación de usuarios.
-- Pruebas unitarias para el `UserBloc` y el caso de uso `GetUserById`.
-- Integración con Firebase para guardar la sesión del usuario.
+- Índice de documentación en `docs/README.md` con guía para visualizar diagramas Mermaid.
+- Enlace desde el README principal hacia la carpeta `docs/`.
 
-### Arreglado (Fixed)
-- Solucionado el desbordamiento de texto en pantallas pequeñas dentro de la página de perfil.
+### Corregido (Fixed)
+- Cierre correcto del bloque Mermaid en el diagrama de navegación (`docs/navegacion.md`).
 
-## [1.0.0] - 2026-07-01
+## [1.0.0] - 2026-07-20
 ### Añadido (Added)
-- Release inicial de la aplicación.
-- Configuración de la estructura base usando Clean Architecture y DDD.
-- Pantalla principal con listado básico y conexión a API de prueba.
+- Configuración inicial del proyecto Flutter en `pubspec.yaml` (app `mi_aplicacion_limpia`, versión `1.0.0+1`).
+- README del proyecto con descripción de Clean Architecture + DDD, requisitos, instalación y comandos de calidad (`flutter analyze` / `flutter test`).
+- Diagrama de capas Clean Architecture (Presentation, Domain, Data) en `docs/arquitectura.md`.
+- Diagrama de flujo de navegación (Splash → Login/Home → Detalle) en `docs/navegacion.md`.
+- Plantilla de changelog siguiendo Keep a Changelog y Semantic Versioning.
