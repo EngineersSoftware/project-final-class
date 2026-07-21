@@ -1,6 +1,6 @@
 # Documentación del Proyecto
 
-Diagramas de arquitectura y flujos de la aplicación.
+Diagramas de arquitectura, flujos de la aplicación y guías de mantenimiento.
 
 ## Diagramas
 
@@ -8,6 +8,12 @@ Diagramas de arquitectura y flujos de la aplicación.
 |----------|-------------|
 | [Arquitectura](./arquitectura.md) | Capas de Clean Architecture (Presentation, Domain, Data) |
 | [Navegación](./navegacion.md) | Flujo de pantallas desde Splash hasta Detalle |
+
+## Guías
+
+| Documento | Descripción |
+|-----------|-------------|
+| [Plan de mantenimiento](./plan_mantenimiento.md) | Ciclo de cambios, checklist, versionado y cadencia del equipo |
 
 ## Cómo ver los diagramas
 

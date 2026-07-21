@@ -5,8 +5,9 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ## [Unreleased]
 ### Añadido (Added)
-- Índice de documentación en `docs/README.md` con guía para visualizar diagramas Mermaid.
+- Índice de documentación en `docs/README.md` con guía para visualizar diagramas Mermaid y enlace al plan de mantenimiento.
 - Enlace desde el README principal hacia la carpeta `docs/`.
+- Plan de mantenimiento en `docs/plan_mantenimiento.md` (ciclo de cambios, checklist pre-commit, tipos de mantenimiento, versionado y Definition of Done).
 
 ### Corregido (Fixed)
 - Cierre correcto del bloque Mermaid en el diagrama de navegación (`docs/navegacion.md`).
